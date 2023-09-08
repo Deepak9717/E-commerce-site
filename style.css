@@ -544,6 +544,7 @@ footer {
   .heading h4,
   .heading p{
     font-size: 0.87rem;
+    margin-bottom: 0;
   }
   .heading p{
     text-align: end;
