@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bootstrap-5.3.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.css"/>
+    <title>Ecommerce Site</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav">
+        <div class="d-flex comp-name">
+            <p class="logo h5">store</p>
+            <p class="h5">City</p>
+        </div>
+
+        <div class="drop-search">
+          <div class="dropdown-btn">
+            <button class="btn text-white d-flex">
+              <p>All Products</p>
+              <i class="fa fa-caret-down mx-2"></i>
+            </button>
+          </div>
+
+          <div class="search-bar d-flex align-items-center">
+            <input type="text" placeholder="Enter keywords..."/>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+        </div>
+        
+        <i class="fa fa-bars" id="bar" aria-hidden="true"></i>
+        
+        <div class="canvas" id="canvas">
+          <i class="fa fa-times" id="cross" aria-hidden="true"></i>
+          <ul>
+            <li><div class="d-flex align-items-center gap-2">
+              <img class="m-0 logo-img" src="./images/image (1).jpg" alt=""/>
+              <p>Octo</p>
+            </div></li>
+            <li>Trending Products</li>
+            <li>Offers</li>
+            <li>Cart</li>
+            <li>Select Language</li>
+            <li><input type="text" class="form-control" placeholder="Search..."></li>
+          </ul>
+        </div>
+
+        <div class="d-flex" id="sidebar">
+          <div class="acc">
+            <img class="logo-img" src="./images/image (1).jpg" alt=""/>
+            <p class="mx-2">Octo</p>
+            <i class="fas fa-caret-down"></i>
+          </div>
+
+          <div class="lang">
+            <img class="logo-img bg-white p-1" src="./images/image (12).png" alt="" />
+            <i class="fas fa-caret-down"></i>
+          </div>
+
+          <div class="cart">
+            <i class="fas fa-cart-arrow-down"></i>
+            <p>Cart</p>
+            <p class="counter">0</p>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <div class="section-1">
+      <div class="text">
+        <div>
+          <p style="color: rgb(25, 207, 25)">25% OFF PROMOTIONAL SALE</p>
+          <p class="big-text mb-3">All you need in your life.</p>
+          <p class="content">
+            Commodo dolor sit amet cum diceam est un parturient nascetur mas
+            ligula massa consequat est un dolor.
+          </p>
+          <button class="btn mt-md-5 rounded-5">Browse Products</button>
+        </div>
+
+        <div class="assist d-flex">
+          <img class="logo-img" src="./images/image (13).png" />
+          <p>Talk to an assistant</p>
+          <i class="mx-2 fa fa-caret-right" aria-hidden="true"></i>
+        </div>
+      </div>
+      <img class="right-img" src="./images/image (2).png"/>
+    </div>
+
+    <div class="section-2 p-4">
+      <div class="carousal d-flex">
+        <div class="card shadow">
+          <div class="card-body">
+            <h4 class="card-title">Fashion</h4>
+            <p class="card-text">
+              Commodo dolor sit amet cum diceam est un parturient.
+            </p>
+            <button class="btn bg-white">Shop Now</button>
+          </div>
+          <img src="./images/image (6).png" alt="" />
+        </div>
+
+        <div class="card mx-3 shadow">
+          <div class="card-body">
+            <h4 class="card-title">Appliances</h4>
+            <p class="card-text">
+              Commodo dolor sit amet cum diceam est un parturient.
+            </p>
+            <button class="btn bg-white">Shop Now</button>
+          </div>
+          <img src="./images/image (8).png" alt="" />
+        </div>
+
+        <div class="card shadow">
+          <div class="card-body">
+            <h4 class="card-title">Accesseries</h4>
+            <p class="card-text">
+              Commodo dolor sit amet cum diceam est un parturient.
+            </p>
+            <button class="btn">Shop Now</button>
+          </div>
+          <img src="./images/image (9).png" alt="" />
+        </div>
+      </div>
+
+      <div class="dot d-flex">
+        <div class="active"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="heading mt-4">
+        <h4>Recent Discounts</h4>
+        <p>View All Products</p>
+      </div>
+
+      <div class="product-cards d-flex align-items-center">
+        <div class="card bg-light shadow-lg">
+          <img
+            class="card-img-top p-4"
+            src="./images/image (3).png"
+            alt="Asus ZenBook Pro Duo Image"
+          />
+          <div class="card-body pb-0">
+            <p class="card-text mb-1 text-secondary">Titan</p>
+            <p class="card-title mb-0">Golden Analog Watch UX581GV</p>
+
+            <div class="d-flex align-items-center mb-md-3">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star-half"></i>
+              <p class="mb-1">4.5(20)</p>
+            </div>
+            <div class="price d-flex align-items-center mb-2">
+              <h4 class="m-0">$2,899.99</h4>
+              <del><p class="text-secondary m-0">$3,000</del>
+            </div>
+
+            <div class="stock-text d-flex">
+              <p class="mb-3">32 Availiable in stock</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-light shadow-lg">
+          <img
+            class="card-img-top p-4"
+            src="./images/image (4).png"
+            alt="BOAT Red Headphones Image"
+          />
+          <div class="card-body pb-0">
+            <p class="card-text mb-1 text-secondary">OnePlus+</p>
+            <p class="card-title mb-0">OnePlus Note 5 Pro with Pointer</p>
+
+            <div class="d-flex align-items-center mb-md-3">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star-half"></i>
+              <p class="mb-1">4.8(90)</p>
+            </div>
+            <div class="price d-flex align-items-center mb-2">
+              <h4 class="m-0">$5,699.99</h4>
+              <del><p class="text-secondary m-0">$6,000.00</p></del>
+            </div>
+
+            <div class="stock-text d-flex">
+              <p class="mb-3">30 Availiable in stock</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-light shadow-lg">
+          <img
+            class="card-img-top p-4"
+            src="./images/image (5).jpg"
+            alt="Bolt Earphone Image"
+          />
+          <div class="card-body pb-0">
+            <p class="card-text mb-1 text-secondary">Heaven</p>
+            <p class="card-title mb-0">Gray Cotton Full Sleeve Shirt</p>
+
+            <div class="d-flex align-items-center mb-md-3">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star-half"></i>
+              <p class="mb-1">4.0(50)</p>
+            </div>
+            <div class="price d-flex align-items-center mb-2">
+              <h4 class="m-0">$20,790</h4>
+              <del><p class="text-secondary m-0">$22,000</p></del>
+            </div>
+
+            <div class="stock-text d-flex">
+              <p class="mb-3">20 Availiable in stock</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-light shadow-lg">
+          <img
+            class="card-img-top p-4"
+            src="./images/image (6).png"
+            alt="Adidas Shoes Image"
+          />
+          <div class="card-body pb-0">
+            <p class="card-text mb-1 text-secondary">Adidas</p>
+            <p class="card-title mb-0">Black-White Sneakers For Men</p>
+
+            <div class="d-flex align-items-center mb-md-3">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fas fa-star-half"></i>
+              <p class="mb-1">4.2(10)</p>
+            </div>
+            <div class="price d-flex align-items-center mb-2">
+              <h4 class="m-0">$129.00</h4>
+              <del><p class="text-secondary m-0">$150</p></del>
+            </div>
+
+            <div class="stock-text d-flex">
+              <p class="mb-3">100 Availiable in stock</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heading promo mt-5">
+        <h4>Active Promotions</h4>
+        <p>View All Promotions</p>
+      </div>
+
+      <div class="promo-cards d-flex my-3">
+        <div class="card shadow-lg">
+          <img
+            class="card-img-top"
+            src="./images/image (10).jpeg"
+            alt="Casual Sweaters"
+          />
+          <div
+            class="card-body px-5"
+            style="background-color: rgb(235, 209, 233)"
+          >
+            <i class="fa fa-shirt" aria-hidden="true"></i>
+            <p class="card-title">Up to 25% off on all casual sweaters</p>
+            <button class="btn btn-light shadow-lg">Browse Products</button>
+          </div>
+        </div>
+
+        <div class="card shadow-lg mx-3"
+          style="background-color: rgba(174, 223, 224, 0.836)"
+        >
+          <div class="card-body px-5">
+            <i class="fa fa-bath" aria-hidden="true"></i>
+            <p class="card-title">Up to 20% off on beauty products</p>
+            <button class="btn">Browse Products</button>
+          </div>
+          <img
+            class="card-img-top"
+            src="./images/image (7).png"
+            alt="Body Wash Shampoo"
+          />
+        </div>
+
+        <div class="card shadow-lg">
+          <img
+            class="card-img-top"
+            src="./images/image (11).jpg"
+            alt="BMX Bike"
+          />
+          <div class="card-body px-5">
+            <i class="fa-sharp fa fa-bicycle" aria-hidden="true"></i>
+            <p class="card-title">Exciting bike rides with amazing eqipments</p>
+            <button class="btn black">Browse Products</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-100 bg-secondary">
+      <div class="d-flex footer-content border-bottom">
+        <div class="d-flex name">
+          <h1 class="logo text-white">store</h1>
+          <h1>City</h1>
+        </div>
+
+        <div class="d-flex footer-info">
+          <div>
+            <h5 class="text-dark">MENU</h5>
+            <ul class="text-white">
+              <li>GPS TRACKING</li>
+              <li>FEATURES</li>
+              <li>LOGIN</li>
+              <li>INFO</li>
+              <li>ABOUT US</li>
+            </ul>
+          </div>
+
+          <div>
+            <h5 class="text-dark">COMPANY</h5>
+            <ul class="text-white">
+              <li>ABOUT US</li>
+              <li>STRATEGIC PARTNERS</li>
+              <li>CAREERS</li>
+              <li>PRIVACY POLICY</li>
+              <li>TERMS & CONDITIONS</li>
+            </ul>
+          </div>
+
+          <div>
+            <h5 class="text-dark">CONTACT</h5>
+            <ul class="text-white">
+              <li>CONTACT SALES</li>
+            </ul>
+          </div>
+
+          <div>
+            <h5 class="text-dark">TECH SUPPORT</h5>
+            <ul class="text-white border-0">
+              <li>CONTACT SUPPORT</li>
+              <li>CUSTOMER CARE</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 links">
+        <p class="h6">
+          storeCity
+          <i class="fa fa-copyright mx-1" aria-hidden="true"></i>Copyright 2015
+        </p>
+      </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
