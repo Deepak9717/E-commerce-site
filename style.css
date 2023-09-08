@@ -522,12 +522,15 @@ footer {
   }
   .promo-cards .card {
     width: 90%;
-    height: 33rem;
+    height: 32rem;
   }
   .promo-cards .card-body {
     padding: 2.5rem 2rem !important;
   }
   .promo-cards .btn {
     width: 100%;
+  }
+  .name{
+    margin: 0;
   }
 }
