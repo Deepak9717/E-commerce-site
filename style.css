@@ -81,7 +81,7 @@ header {
 .logo-img {
   width: 2rem;
   height: 2rem;
-  margin: 0 0.6rem;
+  margin: 0 0.4rem;
   outline: 1px solid white;
   border-radius: 50%;
   cursor: pointer;
@@ -153,12 +153,15 @@ header {
   margin-top: 5rem;
   padding-left: 1rem;
   color: white;
+  display: flex;
   align-items: center;
   border-left: 1px solid gray;
 }
-.assist img {
-  margin-left: 0;
-  margin-right: 1rem;
+.assist i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
 }
 .dot {
   gap: 0.5rem;
@@ -544,7 +547,6 @@ footer {
   .heading h4,
   .heading p{
     font-size: 0.87rem;
-    margin-bottom: 0;
   }
   .heading p{
     text-align: end;
